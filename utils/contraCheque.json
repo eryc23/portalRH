@@ -1,0 +1,30 @@
+[
+    {
+        "empregador": "Normalabs",
+        "endereco": "Rua dos anzois pereira",
+        "cnpj": "34.2313.1224/0001",
+        "salario_base": 2547.21,
+        "comissao": 0,
+        "inss": 0.8,
+        "he": 0,
+        "referente": "01/02/2022"
+    },{
+        "empregador": "Normalabs",
+        "endereco": "Rua dos anzois pereira",
+        "cnpj": "34.2313.1224/0001",
+        "salario_base": 2547.21,
+        "comissao": 0,
+        "inss": 0.8,
+        "he": 0,
+        "referente": "01/03/2022"
+    },{
+        "empregador": "Normalabs",
+        "endereco": "Rua dos anzois pereira",
+        "cnpj": "34.2313.1224/0001",
+        "salario_base": 2547.21,
+        "comissao": 0,
+        "inss": 0.8,
+        "he": 4,
+        "referente": "01/04/2022"
+    }
+]
