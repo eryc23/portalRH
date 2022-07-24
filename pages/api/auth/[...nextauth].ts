@@ -16,7 +16,8 @@ export const authOption = {
                     name: profile.name || profile.login,
                     username: profile.login,
                     email: profile.email,
-                    image: profile.avatar_url
+                    image: profile.avatar_url,
+                    hired: '01/01/2022',
                 }
             }
         }),
@@ -42,7 +43,8 @@ export const authOption = {
             user: {
                 ...session.user,
                 id: user.id,
-                username: user.username
+                username: user.username,
+                hired: user.hired,
             }
         })
     }

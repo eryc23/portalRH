@@ -18,9 +18,13 @@ async function handle(req: NextRequest, res: NextResponse) {
   const session = await getSession({req: requestForNextAuth});
   
   if(session) return NextResponse.next();
-  
-  const signInUrl = new URL(signInPage, req.nextUrl.origin);
+
+  const signInUrl = req.nextUrl.clone();
+  signInUrl.pathname = signInPage;
+
   return NextResponse.redirect(signInUrl);
 }
 
 export default handle;
+
+export const config = { matcher: ["/", "/badge", "/paycheck", "/helpdesk"] }

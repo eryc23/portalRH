@@ -6,10 +6,10 @@ import { BtnTheme } from './btnTheme';
 import { signOut } from 'next-auth/react';
 
 const navigation = [
-  { name: 'Inicio', href: '#', current: true },
-  { name: 'Contra Cheque', href: '#', current: false },
-  { name: 'Crachá digital', href: '#', current: false },
-  { name: 'Help Desk', href: '#', current: false },
+  { name: 'Inicio', href: '/', current: true },
+  { name: 'Contra Cheque', href: '/paycheck', current: false },
+  { name: 'Crachá digital', href: '/badge', current: false },
+  { name: 'Help Desk', href: '/helpdesk', current: false },
 ]
 
 function classNames(...classes) {
